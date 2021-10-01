@@ -2,6 +2,8 @@
 Both client and server and integrated. The server will fetch the data from the public API(https://jsonplaceholder.typicode.com/comments) before the first render and transfer it to the local app API. 
 
 ### Acess routes
+
+### Acess routes
 Front-end
 http://localhost:3000/
 
@@ -15,6 +17,7 @@ Unit tests: [Jest](https://jestjs.io/)
 
 ### Quick test
 ```
-> npm install
-> npm start
+    > cd platzi-app
+	> npm install
+	> npm start
 ```
