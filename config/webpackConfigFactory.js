@@ -36,7 +36,6 @@ module.exports = function(envType) {
         resolvePath('../src/index.js')
       ]
     : {
-        polyfills: resolvePath('../src/polyfills.js'),
         main: resolvePath('../src/index.js')
       };
 
