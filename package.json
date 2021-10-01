@@ -89,7 +89,6 @@
     "react-ssr-prepass": "^1.0.6",
     "react-test-renderer": "^16.9.0",
     "response-time": "^2.3.2",
-    "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.39.3",
@@ -100,6 +99,7 @@
   },
   "devDependencies": {
     "fibers": "^5.0.0",
-    "sass": "^1.42.1"
+    "sass": "^1.42.1",
+    "sass-loader": "^7.3.1"
   }
 }
