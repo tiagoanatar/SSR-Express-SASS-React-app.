@@ -1,7 +1,5 @@
 if (browserSupportsAllFeatures()) {
   runMain();
-} else {
-  loadScript(window.__ASSET_MANIFEST__['polyfills.js'], runMain);
 }
 
 function runMain() {
