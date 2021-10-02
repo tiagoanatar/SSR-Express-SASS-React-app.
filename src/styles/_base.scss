@@ -125,6 +125,13 @@ a {
   cursor: pointer;
 }
 
+button {
+	text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
 figure {
 	position: relative;
 	display: flex;
