@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Style from './mode/Style';
 import { FaChessKnight, FaInfo, FaCloudSun } from "react-icons/fa";

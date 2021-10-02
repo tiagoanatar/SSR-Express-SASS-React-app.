@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 import { api } from '../api';
 import Card  from './Card'
-import { useServerData } from '../state/serverDataContext';
 
 const Home = () => {
   const [todos, setTodos] = useState([]);
@@ -19,10 +18,6 @@ const Home = () => {
 
     getTasks()
   }, [])
-
-  function getRndInteger(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) ) + min;
-  }
 
   // Fetch Tasks
   const fetchTasks = async () => {
